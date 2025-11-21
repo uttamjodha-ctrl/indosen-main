@@ -1,0 +1,5 @@
+/crm.dashboard
+/manager.dashboard
+/tiles-dashboard
+node_modules
+.env
