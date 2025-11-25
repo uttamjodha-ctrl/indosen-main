@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Indosen Group | Global Trade & Infrastructure</title>
   <meta name="description"
-    content="Your Trusted Partner in Infrastructure & Healthcare. Indosen Group specializes in export goods from India to West Africa, Construction, and Healthcare.">
+    content="Indosen Group - A diversified global business group operating in Trade, Construction, Healthcare, and Logistics across India and Africa.">
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,177 +17,363 @@
 
   <!-- Styles -->
   <link rel="stylesheet" href="style.css">
+
+  <!-- FontAwesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
+  <!-- Navigation -->
   <header id="header" class="header">
     <div class="container header-container">
-      <div class="logo">INDOSEN GROUP</div>
+      <div class="logo">INDOSEN <span class="logo-accent">GROUP</span></div>
       <nav class="nav">
         <ul>
           <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#sectors">Sectors</a></li>
+          <li><a href="#divisions">Divisions</a></li>
+          <li><a href="#timeline">History</a></li>
           <li><a href="#global">Global Presence</a></li>
-          <li><a href="#contact" class="nav-btn">Contact Us</a></li>
+          <li><a href="#contact" class="nav-btn">Contact Business Team</a></li>
         </ul>
       </nav>
       <button class="mobile-menu-btn" aria-label="Toggle Menu">
-        <span></span>
-        <span></span>
-        <span></span>
+        <i class="fas fa-bars"></i>
       </button>
     </div>
   </header>
 
   <main>
+    <!-- Hero Section -->
     <section id="home" class="hero">
       <div class="hero-overlay"></div>
       <div class="container hero-content">
-        <h1 class="fade-in">Your Trusted Partner in <br>Infrastructure & Healthcare</h1>
-        <p class="fade-in">Bridging India and West Africa through excellence in trade, construction, and innovation.</p>
+        <div class="hero-badge fade-in">Est. 2007</div>
+        <h1 class="fade-in">Empowering Global Growth <br>Through Diversified Excellence</h1>
+        <p class="fade-in">Bridging India and Africa with leadership in Trade, Construction, Healthcare, and Logistics.
+        </p>
         <div class="hero-btns fade-in">
-          <a href="#contact" class="btn">Partner With Us</a>
-          <a href="#sectors" class="btn btn-outline">Our Sectors</a>
+          <a href="#divisions" class="btn btn-primary">Explore Divisions</a>
+          <a href="#contact" class="btn btn-outline">Contact Business Team</a>
         </div>
       </div>
     </section>
 
-    <section id="stats" class="stats">
-      <div class="container stats-grid">
-        <div class="stat-item fade-in">
-          <span class="stat-number">20+</span>
-          <span class="stat-label">Years Experience</span>
+    <!-- KPI Section -->
+    <section class="kpi-section">
+      <div class="container kpi-grid">
+        <div class="kpi-item fade-in">
+          <div class="kpi-number" data-target="17">0</div>
+          <div class="kpi-label">Years of Excellence</div>
         </div>
-        <div class="stat-item fade-in">
-          <span class="stat-number">5</span>
-          <span class="stat-label">Major Depots</span>
+        <div class="kpi-item fade-in">
+          <div class="kpi-number" data-target="5">0</div>
+          <div class="kpi-label">Major Depots</div>
         </div>
-        <div class="stat-item fade-in">
-          <span class="stat-number">3</span>
-          <span class="stat-label">Global Offices</span>
+        <div class="kpi-item fade-in">
+          <div class="kpi-number" data-target="4">0</div>
+          <div class="kpi-label">Countries Present</div>
         </div>
-        <div class="stat-item fade-in">
-          <span class="stat-number">100%</span>
-          <span class="stat-label">Reliability</span>
-        </div>
-      </div>
-    </section>
-
-    <section id="about" class="about">
-      <div class="container about-grid">
-        <div class="about-text fade-in">
-          <div class="label">Who We Are</div>
-          <h2>Connecting Markets, <br>Delivering Value.</h2>
-          <p>Indosen Group is a premier international trade and infrastructure conglomerate. With our roots in India and
-            a strong operational footprint in West Africa, specifically Senegal and Gambia, we facilitate the seamless
-            movement of goods and services.</p>
-          <p>From operating 5 state-of-the-art depots for tiles and sanitary ware to executing complex construction
-            projects and supplying vital healthcare products, we are committed to quality and integrity in every
-            transaction.</p>
-          <a href="#contact" class="btn-text">Learn More &rarr;</a>
-        </div>
-        <div class="about-image fade-in">
-          <div class="img-placeholder"></div>
+        <div class="kpi-item fade-in">
+          <div class="kpi-number" data-target="100">0</div>
+          <div class="kpi-label">Projects Delivered</div>
         </div>
       </div>
     </section>
 
-    <section id="sectors" class="sectors">
+    <!-- Business Divisions -->
+    <section id="divisions" class="section-padding bg-light">
       <div class="container">
-        <div class="section-title fade-in">
-          <h2>Our Business Sectors</h2>
-          <p>Diversified excellence across key industries driving development in West Africa.</p>
+        <div class="section-header fade-in">
+          <h2 class="section-title">Our Business Divisions</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">Driving value across multiple high-growth sectors.</p>
         </div>
-        <div class="sectors-grid">
-          <div class="sector-card fade-in">
-            <div class="sector-icon">🚢</div>
-            <h3>Global Export</h3>
-            <p>Our core business. Streamlined export of high-quality goods from India to Senegal, Gambia, and beyond.
-            </p>
+
+        <div class="divisions-grid">
+          <!-- Card 1 -->
+          <div class="division-card fade-in">
+            <div class="card-icon"><i class="fas fa-ship"></i></div>
+            <h3>Import & Export</h3>
+            <p>Streamlined movement of goods bridging Indian manufacturing with African markets.</p>
           </div>
-          <div class="sector-card fade-in">
-            <div class="sector-icon">🏗️</div>
+          <!-- Card 2 -->
+          <div class="division-card fade-in">
+            <div class="card-icon"><i class="fas fa-city"></i></div>
             <h3>Construction</h3>
-            <p>Delivering infrastructure solutions with precision engineering and sustainable practices.</p>
+            <p>Executing civil contracts and infrastructure projects with precision engineering.</p>
           </div>
-          <div class="sector-card fade-in">
-            <div class="sector-icon">🏥</div>
+          <!-- Card 3 -->
+          <div class="division-card fade-in">
+            <div class="card-icon"><i class="fas fa-heartbeat"></i></div>
             <h3>Healthcare</h3>
-            <p>Supplying essential medical equipment and pharmaceuticals to support community health.</p>
+            <p>Supplying vital medical equipment and pharmaceuticals to support community health.</p>
           </div>
-          <div class="sector-card fade-in">
-            <div class="sector-icon">🧱</div>
-            <h3>Tiles & Sanitary</h3>
-            <p>Operating 5 major depots providing premium ceramics and sanitary ware for modern living.</p>
+          <!-- Card 4 -->
+          <div class="division-card fade-in">
+            <div class="card-icon"><i class="fas fa-truck-fast"></i></div>
+            <h3>Logistics & Shipping</h3>
+            <p>End-to-end supply chain solutions ensuring timely delivery across borders.</p>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="global" class="global">
-      <div class="container">
-        <div class="global-content fade-in">
-          <h2>Global Footprint</h2>
-          <p>Strategic presence ensuring efficient operations and local support.</p>
-          <div class="locations-grid">
-            <div class="location-item">
-              <h3>🇮🇳 India</h3>
-              <p>Corporate Headquarters</p>
-              <p class="detail">Sourcing & Logistics Hub</p>
-            </div>
-            <div class="location-arrow">✈️</div>
-            <div class="location-item">
-              <h3>🇸🇳 Senegal</h3>
-              <p>Regional Headquarters (Dakar)</p>
-              <p class="detail">Distribution & Operations</p>
-            </div>
-            <div class="location-arrow">🚛</div>
-            <div class="location-item">
-              <h3>🇬🇲 Gambia</h3>
-              <p>Regional Office</p>
-              <p class="detail">Retail & Projects</p>
-            </div>
+          <!-- Card 5 -->
+          <div class="division-card fade-in">
+            <div class="card-icon"><i class="fas fa-chart-line"></i></div>
+            <h3>Trading & Investment</h3>
+            <p>Strategic investments and commodity trading fostering economic growth.</p>
+          </div>
+          <!-- Card 6 -->
+          <div class="division-card fade-in highlight-card">
+            <div class="card-icon"><i class="fas fa-rocket"></i></div>
+            <h3>Upcoming Ventures</h3>
+            <p>Expanding into new horizons with innovative projects in pipeline.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="contact" class="contact">
+    <!-- Timeline Section -->
+    <section id="timeline" class="section-padding bg-dark text-white">
       <div class="container">
-        <div class="contact-box fade-in">
-          <h2>Ready to Partner With Us?</h2>
-          <p>Connect with our team for trade inquiries, project collaborations, or product information.</p>
-          <a href="mailto:indosengroup@gmail.com" class="email-link">
-            ✉️ indosengroup@gmail.com
-          </a>
-          <div class="contact-info">
-            <div>
-              <strong>India Office</strong><br>
-              Corporate Hub, New Delhi
+        <div class="section-header fade-in">
+          <h2 class="section-title text-white">Our Journey of Growth</h2>
+          <div class="section-line line-gold"></div>
+          <p class="section-subtitle text-gray">From humble beginnings to a multinational conglomerate.</p>
+        </div>
+
+        <div class="timeline">
+          <!-- Item -->
+          <div class="timeline-item fade-in">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2007</div>
+            <div class="timeline-content">
+              <h3>Inception</h3>
+              <p>Started liquor business, laying the foundation for future growth.</p>
             </div>
-            <div>
-              <strong>Senegal Office</strong><br>
-              Dakar, Senegal
+          </div>
+          <!-- Item -->
+          <div class="timeline-item fade-in">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2012</div>
+            <div class="timeline-content">
+              <h3>Global Expansion</h3>
+              <p>Expanded into export operations to Mozambique.</p>
             </div>
+          </div>
+          <!-- Item -->
+          <div class="timeline-item fade-in">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2015</div>
+            <div class="timeline-content">
+              <h3>Entering West Africa</h3>
+              <p>Officially entered the Senegal market.</p>
+            </div>
+          </div>
+          <!-- Item -->
+          <div class="timeline-item fade-in">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2016 - 2021</div>
+            <div class="timeline-content">
+              <h3>Rapid Retail Expansion</h3>
+              <p>Opened 4 major depots across Patte d’Oie, Mbour, and Touba.</p>
+            </div>
+          </div>
+          <!-- Item -->
+          <div class="timeline-item fade-in">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2022</div>
+            <div class="timeline-content">
+              <h3>Construction Sector</h3>
+              <p>Diversified into construction and started executing civil contracts.</p>
+            </div>
+          </div>
+          <!-- Item -->
+          <div class="timeline-item fade-in">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2023</div>
+            <div class="timeline-content">
+              <h3>Corporate HQ</h3>
+              <p>Established Head Office in Dakar to manage all business verticals.</p>
+            </div>
+          </div>
+          <!-- Item -->
+          <div class="timeline-item fade-in">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2024</div>
+            <div class="timeline-content">
+              <h3>Healthcare Infrastructure</h3>
+              <p>Started construction of Dialysis Centre cum Hospital with Senegalese Army at Thies.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Global Presence (Map Placeholder) -->
+    <section id="global" class="section-padding">
+      <div class="container">
+        <div class="section-header fade-in">
+          <h2 class="section-title">Global Footprint</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">Connecting India, Senegal, Gambia, and Mozambique.</p>
+        </div>
+        <div class="map-container fade-in">
+          <!-- Abstract Map Visual via CSS/Image -->
+          <div class="map-visual">
+            <div class="map-point point-india" data-label="India (HQ)"></div>
+            <div class="map-point point-senegal" data-label="Senegal (Reg. HQ)"></div>
+            <div class="map-point point-gambia" data-label="Gambia"></div>
+            <div class="map-point point-mozambique" data-label="Mozambique"></div>
+            <div class="map-line line-1"></div> <!-- India to Senegal -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Leadership Team -->
+    <section class="section-padding bg-light">
+      <div class="container">
+        <div class="section-header fade-in">
+          <h2 class="section-title">Leadership</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="team-grid">
+          <div class="team-card fade-in">
+            <div class="team-img"></div>
+            <h3>Founder Name</h3>
+            <p>Chairman</p>
+          </div>
+          <div class="team-card fade-in">
+            <div class="team-img"></div>
+            <h3>Director Name</h3>
+            <p>Managing Director</p>
+          </div>
+          <div class="team-card fade-in">
+            <div class="team-img"></div>
+            <h3>Executive Name</h3>
+            <p>Head of Operations</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CSR & Sustainability -->
+    <section class="section-padding bg-green text-white">
+      <div class="container">
+        <div class="csr-content fade-in">
+          <div class="csr-text">
+            <h2>Committed to Sustainability</h2>
+            <p>We believe in growing responsibly. From eco-friendly construction practices to community healthcare
+              initiatives, Indosen Group is dedicated to making a positive impact.</p>
+            <ul class="csr-list">
+              <li><i class="fas fa-leaf"></i> Eco-friendly Materials</li>
+              <li><i class="fas fa-hands-helping"></i> Community Support</li>
+              <li><i class="fas fa-solar-panel"></i> Green Energy Adoption</li>
+            </ul>
+          </div>
+          <div class="csr-icon">
+            <i class="fas fa-globe-africa"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Partners -->
+    <section class="section-padding">
+      <div class="container">
+        <p class="partners-title">Trusted by Global Partners</p>
+        <div class="partners-grid fade-in">
+          <div class="partner-logo">Partner 1</div>
+          <div class="partner-logo">Partner 2</div>
+          <div class="partner-logo">Partner 3</div>
+          <div class="partner-logo">Partner 4</div>
+          <div class="partner-logo">Partner 5</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact / Locations -->
+    <section id="contact" class="section-padding bg-dark text-white">
+      <div class="container">
+        <div class="contact-layout">
+          <div class="contact-info fade-in">
+            <h2>Contact Us</h2>
+            <p class="mb-4">Get in touch with our corporate team for partnerships and inquiries.</p>
+
+            <div class="info-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h4>Email</h4>
+                <a href="mailto:indosengroup@gmail.com">indosengroup@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h4>Global HQ</h4>
+                <p>New Delhi, India</p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <i class="fas fa-building"></i>
+              <div>
+                <h4>Regional HQ</h4>
+                <p>Dakar, Senegal</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-placeholder fade-in">
+            <h3>Send a Message</h3>
+            <form onsubmit="event.preventDefault(); alert('Thank you. We will contact you shortly.');">
+              <input type="text" placeholder="Your Name" required>
+              <input type="email" placeholder="Your Email" required>
+              <select>
+                <option>Select Division</option>
+                <option>Export/Import</option>
+                <option>Construction</option>
+                <option>Healthcare</option>
+              </select>
+              <textarea placeholder="Message" rows="4"></textarea>
+              <button type="submit" class="btn btn-primary full-width">Send Message</button>
+            </form>
           </div>
         </div>
       </div>
     </section>
   </main>
 
+  <!-- Footer -->
   <footer class="footer">
     <div class="container">
-      <div class="footer-content">
-        <div class="footer-logo">INDOSEN GROUP</div>
-        <div class="footer-links">
-          <a href="#home">Home</a>
-          <a href="#sectors">Sectors</a>
-          <a href="#contact">Contact</a>
-          <a href="/tiles/" target="_blank">Employee Login</a>
+      <div class="footer-top">
+        <div class="footer-brand">
+          <h3>INDOSEN GROUP</h3>
+          <p>Building the future through global trade and infrastructure.</p>
         </div>
-        <div class="copyright">
-          &copy; 2025 Indosen Group. All rights reserved.
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#divisions">Divisions</a></li>
+            <li><a href="#timeline">History</a></li>
+            <li><a href="/tiles/" target="_blank">Employee Login</a></li>
+          </ul>
+        </div>
+        <div class="footer-newsletter">
+          <h4>Newsletter</h4>
+          <div class="input-group">
+            <input type="email" placeholder="Enter email">
+            <button><i class="fas fa-arrow-right"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Indosen Group. All rights reserved.</p>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
         </div>
       </div>
     </div>
