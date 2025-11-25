@@ -1,0 +1,215 @@
+import './style.css'
+
+// HTML Structure
+document.querySelector('#app').innerHTML = `
+  <header id="header" class="header">
+    <div class="container header-container">
+      <div class="logo">INDOSEN GROUP</div>
+      <nav class="nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#sectors">Sectors</a></li>
+          <li><a href="#global">Global Presence</a></li>
+          <li><a href="#contact" class="nav-btn">Contact Us</a></li>
+        </ul>
+      </nav>
+      <button class="mobile-menu-btn" aria-label="Toggle Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <h1 class="fade-in">Your Trusted Partner in <br>Infrastructure & Healthcare</h1>
+        <p class="fade-in">Bridging India and West Africa through excellence in trade, construction, and innovation.</p>
+        <div class="hero-btns fade-in">
+          <a href="#contact" class="btn">Partner With Us</a>
+          <a href="#sectors" class="btn btn-outline">Our Sectors</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="stats" class="stats">
+      <div class="container stats-grid">
+        <div class="stat-item fade-in">
+          <span class="stat-number">20+</span>
+          <span class="stat-label">Years Experience</span>
+        </div>
+        <div class="stat-item fade-in">
+          <span class="stat-number">5</span>
+          <span class="stat-label">Major Depots</span>
+        </div>
+        <div class="stat-item fade-in">
+          <span class="stat-number">3</span>
+          <span class="stat-label">Global Offices</span>
+        </div>
+        <div class="stat-item fade-in">
+          <span class="stat-number">100%</span>
+          <span class="stat-label">Reliability</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container about-grid">
+        <div class="about-text fade-in">
+          <div class="label">Who We Are</div>
+          <h2>Connecting Markets, <br>Delivering Value.</h2>
+          <p>Indosen Group is a premier international trade and infrastructure conglomerate. With our roots in India and a strong operational footprint in West Africa, specifically Senegal and Gambia, we facilitate the seamless movement of goods and services.</p>
+          <p>From operating 5 state-of-the-art depots for tiles and sanitary ware to executing complex construction projects and supplying vital healthcare products, we are committed to quality and integrity in every transaction.</p>
+          <a href="#contact" class="btn-text">Learn More &rarr;</a>
+        </div>
+        <div class="about-image fade-in">
+          <!-- Placeholder for corporate image -->
+          <div class="img-placeholder"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sectors" class="sectors">
+      <div class="container">
+        <div class="section-title fade-in">
+          <h2>Our Business Sectors</h2>
+          <p>Diversified excellence across key industries driving development in West Africa.</p>
+        </div>
+        <div class="sectors-grid">
+          <div class="sector-card fade-in">
+            <div class="sector-icon">🚢</div>
+            <h3>Global Export</h3>
+            <p>Our core business. Streamlined export of high-quality goods from India to Senegal, Gambia, and beyond.</p>
+          </div>
+          <div class="sector-card fade-in">
+            <div class="sector-icon">🏗️</div>
+            <h3>Construction</h3>
+            <p>Delivering infrastructure solutions with precision engineering and sustainable practices.</p>
+          </div>
+          <div class="sector-card fade-in">
+            <div class="sector-icon">🏥</div>
+            <h3>Healthcare</h3>
+            <p>Supplying essential medical equipment and pharmaceuticals to support community health.</p>
+          </div>
+          <div class="sector-card fade-in">
+            <div class="sector-icon">🧱</div>
+            <h3>Tiles & Sanitary</h3>
+            <p>Operating 5 major depots providing premium ceramics and sanitary ware for modern living.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="global" class="global">
+      <div class="container">
+        <div class="global-content fade-in">
+          <h2>Global Footprint</h2>
+          <p>Strategic presence ensuring efficient operations and local support.</p>
+          <div class="locations-grid">
+            <div class="location-item">
+              <h3>🇮🇳 India</h3>
+              <p>Corporate Headquarters</p>
+              <p class="detail">Sourcing & Logistics Hub</p>
+            </div>
+            <div class="location-arrow">✈️</div>
+            <div class="location-item">
+              <h3>🇸🇳 Senegal</h3>
+              <p>Regional Headquarters (Dakar)</p>
+              <p class="detail">Distribution & Operations</p>
+            </div>
+            <div class="location-arrow">🚛</div>
+            <div class="location-item">
+              <h3>🇬🇲 Gambia</h3>
+              <p>Regional Office</p>
+              <p class="detail">Retail & Projects</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="contact-box fade-in">
+          <h2>Ready to Partner With Us?</h2>
+          <p>Connect with our team for trade inquiries, project collaborations, or product information.</p>
+          <a href="mailto:indosengroup@gmail.com" class="email-link">
+            ✉️ indosengroup@gmail.com
+          </a>
+          <div class="contact-info">
+            <div>
+              <strong>India Office</strong><br>
+              Corporate Hub, New Delhi
+            </div>
+            <div>
+              <strong>Senegal Office</strong><br>
+              Dakar, Senegal
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">INDOSEN GROUP</div>
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#sectors">Sectors</a>
+          <a href="#contact">Contact</a>
+          <a href="/tiles/" target="_blank">Employee Login</a>
+        </div>
+        <div class="copyright">
+          &copy; 2025 Indosen Group. All rights reserved.
+        </div>
+      </div>
+    </div>
+  </footer>
+`
+
+// Intersection Observer for Animations
+const observerOptions = {
+  root: null,
+  rootMargin: '0px',
+  threshold: 0.1
+};
+
+const observer = new IntersectionObserver((entries, observer) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+      observer.unobserve(entry.target);
+    }
+  });
+}, observerOptions);
+
+document.querySelectorAll('.fade-in').forEach(el => {
+  observer.observe(el);
+});
+
+// Mobile Menu Toggle
+const menuBtn = document.querySelector('.mobile-menu-btn');
+const nav = document.querySelector('.nav');
+
+menuBtn.addEventListener('click', () => {
+  nav.classList.toggle('active');
+  menuBtn.classList.toggle('active');
+});
+
+// Smooth Scroll
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault();
+    nav.classList.remove('active'); // Close mobile menu on click
+    menuBtn.classList.remove('active');
+    
+    document.querySelector(this.getAttribute('href')).scrollIntoView({
+      behavior: 'smooth'
+    });
+  });
+});

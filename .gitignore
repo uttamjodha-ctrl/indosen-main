@@ -3,3 +3,5 @@
 /tiles
 node_modules
 .env
+_backup_old_site
+dist
